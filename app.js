@@ -6,9 +6,18 @@ const logger = require('morgan');
 const bodyParser = require('body-parser')
 const cors = require('cors');
 const multer = require('multer');
+// const db = require('./config/database');
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
+// db.authenticate()
+//     .then(() => {
+//         console.log('MySQL Database Connected');
+//     })
+//     .catch((err) => {
+//         console.log(err);
+//         log.error('Error: ' + err);
+//     });
 
 const app = express();
 
@@ -27,7 +36,9 @@ app.use(cors());
 
 app.use('/school', require('./routes/schoolR'));
 
-
+// this need to type in controller
+// const db = require('../../../../config/database');
+// db.query(`select....`)
 
 
 const PORT = process.env.PORT || 3000;

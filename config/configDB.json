@@ -1,0 +1,36 @@
+//{
+//  "development": {
+//    "username": "ingenii",
+//    "password": "Cde#Vfr4",
+//    "database": "ingeniiadmindb",
+//    "host": "54.169.55.109",
+//    "dialect": "mysql",
+//    "define": {
+//      "timestamps": true
+//    },
+//    "pool": {
+//      "max": 5,
+//      "min": 0,
+//      "acquire": 30000,
+//      "idle": 10000
+//    },
+//    "logging": true
+//  },
+//  "production": {
+//    "username": "ingenii",
+//    "password": "Cde#Vfr4",
+//    "database": "ingeniiadmindb",
+//    "host": "ls-f5a69642cf65466aa22f69b12abd3757bcbb3674.cbexpsj5hnqm.ap-southeast-1.rds.amazonaws.com",
+//    "dialect": "mysql",
+//    "define": {
+//      "timestamps": true
+//    },
+//    "pool": {
+//      "max": 20,
+//      "min": 0,
+//      "acquire": 30000,
+//      "idle": 10000
+//    },
+//    "logging": false
+//  }
+//}
